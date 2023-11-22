@@ -1038,7 +1038,6 @@ main {
 
 .blog-posts-list {
   display: list;
-  grid-template-columns: 1fr;
   gap: 20px;
 }
 
