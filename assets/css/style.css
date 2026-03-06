@@ -1080,8 +1080,8 @@ main {
   overflow: hidden;
 }
 .news-box img {
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
   object-fit: fit;
   transition: var(--transition-1);
 }
