@@ -499,7 +499,7 @@ main {
 
 .about-text {
   color: var(--light-gray);
-  font-size: var(--fs-6);
+  font-size: var(--fs-4);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
@@ -553,6 +553,52 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
+}
+
+.profile-summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-4);
+  color: var(--light-gray);
+  margin-top: 8px;
+}
+
+.profile-summary-table th,
+.profile-summary-table td {
+  padding: 8px 4px;
+}
+
+.profile-summary-table th {
+  color: var(--vegas-gold);
+  font-weight: var(--fw-600);
+  border-bottom: 1px solid var(--jet);
+  font-size: var(--fs-6);
+}
+
+.profile-summary-table td {
+  border-bottom: 1px solid hsla(0, 0%, 22%, 0.4);
+}
+
+.profile-summary-table tr:last-child td {
+  border-bottom: none;
+}
+
+.profile-summary-table .type-col {
+  text-align: left;
+}
+
+.profile-summary-table .count-col {
+  text-align: right;
+  font-weight: var(--fw-600);
+  color: var(--white-2);
+}
+
+.profile-summary-table a {
+  transition: var(--transition-1);
+}
+
+.profile-summary-table a:hover {
+  color: var(--orange-yellow-crayola);
 }
 
 
