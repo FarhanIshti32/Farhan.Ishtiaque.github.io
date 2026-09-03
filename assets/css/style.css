@@ -593,6 +593,14 @@ main {
   color: var(--white-2);
 }
 
+.profile-summary-table a {
+  transition: var(--transition-1);
+}
+
+.profile-summary-table a:hover {
+  color: var(--orange-yellow-crayola);
+}
+
 
 /**
  * #testimonials 
